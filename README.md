@@ -52,7 +52,7 @@ python -m pip install fastapi uvicorn joblib pandas scikit-learn
 ```bash
 python -m uvicorn main:app --reload --port 8005
 ```
-The server will start locally at http://127.0.0.1:8005
+The server will start locally at http://127.0.0.1:8005/docs
 
 ## 🧪 Testing the API
 
